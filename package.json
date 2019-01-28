@@ -1,0 +1,22 @@
+{
+  "name": "@polpware/ngx-noty",
+  "version": "7.0.0",
+  "peerDependencies": {
+    "@angular/common": "^7.2.0",
+    "@angular/core": "^7.2.0",
+    "ngx-toastr": "^9.1.1"
+  },
+  "main": "bundles/polpware-ngx-noty.umd.js",
+  "module": "fesm5/polpware-ngx-noty.js",
+  "es2015": "fesm2015/polpware-ngx-noty.js",
+  "esm5": "esm5/polpware-ngx-noty.js",
+  "esm2015": "esm2015/polpware-ngx-noty.js",
+  "fesm5": "fesm5/polpware-ngx-noty.js",
+  "fesm2015": "fesm2015/polpware-ngx-noty.js",
+  "typings": "polpware-ngx-noty.d.ts",
+  "metadata": "polpware-ngx-noty.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
