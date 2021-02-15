@@ -1,4 +1,4 @@
-export interface INotyOperations {
+export interface INgxNoty {
     success(message: string, title: string, options?: {
         [key: string]: any;
     }): any;

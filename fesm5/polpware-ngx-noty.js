@@ -1,103 +1,28 @@
-import { Injectable } from '@angular/core';
-import { ToastrService } from 'ngx-toastr';
-
 /**
- * @fileoverview added by tsickle
- * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * We on purpose do not make this class to have a root provider.
+ * So that the application feels free to set up it.
  */
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
- */
-// References 
-//   - [ ] https://github.com/scttcper/ngx-toastr
-//
-// This class leverages ngx-toastr to implement the operations in INotyOperations.
-// In order to use this class, the host project must import ngx-toastr.
-var ToastrNotyImplService = /** @class */ (function () {
-    function ToastrNotyImplService(_toastr) {
-        this._toastr = _toastr;
+var NgxNotyImpl = /** @class */ (function () {
+    function NgxNotyImpl() {
     }
-    /**
-     * @param {?} message
-     * @param {?} title
-     * @param {?=} options
-     * @return {?}
-     */
-    ToastrNotyImplService.prototype.success = /**
-     * @param {?} message
-     * @param {?} title
-     * @param {?=} options
-     * @return {?}
-     */
-    function (message, title, options) {
-        this._toastr.success(message, title, options || {});
+    NgxNotyImpl.prototype.success = function (message, title, options) {
     };
-    /**
-     * @param {?} message
-     * @param {?} title
-     * @param {?=} options
-     * @return {?}
-     */
-    ToastrNotyImplService.prototype.error = /**
-     * @param {?} message
-     * @param {?} title
-     * @param {?=} options
-     * @return {?}
-     */
-    function (message, title, options) {
-        this._toastr.error(message, title, options || {});
+    NgxNotyImpl.prototype.error = function (message, title, options) {
     };
-    /**
-     * @param {?} message
-     * @param {?} title
-     * @param {?=} options
-     * @return {?}
-     */
-    ToastrNotyImplService.prototype.info = /**
-     * @param {?} message
-     * @param {?} title
-     * @param {?=} options
-     * @return {?}
-     */
-    function (message, title, options) {
-        this._toastr.info(message, title, options || {});
+    NgxNotyImpl.prototype.info = function (message, title, options) {
     };
-    /**
-     * @param {?} message
-     * @param {?} title
-     * @param {?=} options
-     * @return {?}
-     */
-    ToastrNotyImplService.prototype.warning = /**
-     * @param {?} message
-     * @param {?} title
-     * @param {?=} options
-     * @return {?}
-     */
-    function (message, title, options) {
-        this._toastr.warning(message, title, options || {});
+    NgxNotyImpl.prototype.warning = function (message, title, options) {
     };
-    ToastrNotyImplService.decorators = [
-        { type: Injectable }
-    ];
-    /** @nocollapse */
-    ToastrNotyImplService.ctorParameters = function () { return [
-        { type: ToastrService }
-    ]; };
-    return ToastrNotyImplService;
+    return NgxNotyImpl;
 }());
 
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+/*
+ * Public API Surface of ngx-noty
  */
 
 /**
- * @fileoverview added by tsickle
- * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * Generated bundle index. Do not edit.
  */
 
-export { ToastrNotyImplService };
+export { NgxNotyImpl };
 //# sourceMappingURL=polpware-ngx-noty.js.map

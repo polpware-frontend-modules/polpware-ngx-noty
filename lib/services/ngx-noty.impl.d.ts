@@ -1,8 +1,9 @@
-import { INotyOperations } from './noty.interface';
-import { ToastrService } from 'ngx-toastr';
-export declare class ToastrNotyImplService implements INotyOperations {
-    private _toastr;
-    constructor(_toastr: ToastrService);
+import { INgxNoty } from '../interfaces/ngx-noty.interface';
+/**
+ * We on purpose do not make this class to have a root provider.
+ * So that the application feels free to set up it.
+ */
+export declare class NgxNotyImpl implements INgxNoty {
     success(message: string, title: string, options?: {
         [key: string]: any;
     }): void;
