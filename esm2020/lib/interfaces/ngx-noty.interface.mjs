@@ -1,0 +1,11 @@
+////////////////////////////////////////////////////////////////////////////////
+// References
+//
+//   - [ ] https://github.com/kreuzerk/primeNG-advanced-growl
+//   - [ ] https://github.com/artemsky/ng-snotify
+//   - [ ] https://github.com/jacob-meacham/angular-notification-icons (notification icon but for angularjs)
+//   - [ ] https://github.com/scttcper/ngx-toastr
+//
+////////////////////////////////////////////////////////////////////////////////
+export {};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibmd4LW5vdHkuaW50ZXJmYWNlLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vLi4vLi4vLi4vLi4vcHJvamVjdHMvcG9scHdhcmUvbmd4LW5vdHkvc3JjL2xpYi9pbnRlcmZhY2VzL25neC1ub3R5LmludGVyZmFjZS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxnRkFBZ0Y7QUFDaEYsYUFBYTtBQUNiLEVBQUU7QUFDRiw2REFBNkQ7QUFDN0QsaURBQWlEO0FBQ2pELDRHQUE0RztBQUM1RyxpREFBaUQ7QUFDakQsRUFBRTtBQUNGLGdGQUFnRiIsInNvdXJjZXNDb250ZW50IjpbIi8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vXHJcbi8vIFJlZmVyZW5jZXNcclxuLy9cclxuLy8gICAtIFsgXSBodHRwczovL2dpdGh1Yi5jb20va3JldXplcmsvcHJpbWVORy1hZHZhbmNlZC1ncm93bFxyXG4vLyAgIC0gWyBdIGh0dHBzOi8vZ2l0aHViLmNvbS9hcnRlbXNreS9uZy1zbm90aWZ5XHJcbi8vICAgLSBbIF0gaHR0cHM6Ly9naXRodWIuY29tL2phY29iLW1lYWNoYW0vYW5ndWxhci1ub3RpZmljYXRpb24taWNvbnMgKG5vdGlmaWNhdGlvbiBpY29uIGJ1dCBmb3IgYW5ndWxhcmpzKVxyXG4vLyAgIC0gWyBdIGh0dHBzOi8vZ2l0aHViLmNvbS9zY3R0Y3Blci9uZ3gtdG9hc3RyXHJcbi8vXHJcbi8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vXHJcblxyXG5cclxuZXhwb3J0IGludGVyZmFjZSBJTmd4Tm90eSB7XHJcbiAgICBzdWNjZXNzKG1lc3NhZ2U6IHN0cmluZywgdGl0bGU6IHN0cmluZywgb3B0aW9ucz86IHsgW2tleTogc3RyaW5nXTogYW55IH0pO1xyXG4gICAgZXJyb3IobWVzc2FnZTogc3RyaW5nLCB0aXRsZTogc3RyaW5nLCBvcHRpb25zPzogeyBba2V5OiBzdHJpbmddOiBhbnkgfSk7XHJcbiAgICBpbmZvKG1lc3NhZ2U6IHN0cmluZywgdGl0bGU6IHN0cmluZywgb3B0aW9ucz86IHsgW2tleTogc3RyaW5nXTogYW55IH0pO1xyXG4gICAgd2FybmluZyhtZXNzYWdlOiBzdHJpbmcsIHRpdGxlOiBzdHJpbmcsIG9wdGlvbnM/OiB7IFtrZXk6IHN0cmluZ106IGFueSB9KTtcclxufVxyXG4iXX0=
