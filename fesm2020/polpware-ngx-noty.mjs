@@ -1,4 +1,12 @@
 ////////////////////////////////////////////////////////////////////////////////
+// References
+//
+//   - [ ] https://github.com/kreuzerk/primeNG-advanced-growl
+//   - [ ] https://github.com/artemsky/ng-snotify
+//   - [ ] https://github.com/jacob-meacham/angular-notification-icons (notification icon but for angularjs)
+//   - [ ] https://github.com/scttcper/ngx-toastr
+//
+////////////////////////////////////////////////////////////////////////////////
 
 /**
  * We on purpose do not make this class to have a root provider.
